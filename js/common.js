@@ -25,6 +25,7 @@ $(function () {
     $('#myModal').modal('show');
   })
 
+
   $('.btnlogout').on('click',function () {
     $.ajax({
       type:'get',

@@ -70,10 +70,14 @@ a:focus{
   border-left: 3px solid transparent;
   width: 100%;
 }
-
-.nav .second{
-  display: none;
+.nav a.active {
+  background-color: #1d1f21;
+  border-left: 3px solid #069;
 }
+
+/* .nav .second{
+  display: none;
+} */
 
 
 .lt_mian{
